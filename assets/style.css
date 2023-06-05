@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+}
+header,main,footer {
+ min-height: 100px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+}
+header {
+    color: white;
+}
+
+header div {
+    display: flex;
+    justify-content: end;
+    margin-left: 1em;
+}
+
+.freccie {
+    background-color: gray;
+   width: 1.2em;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.container {
+    background-color: grey;
+    width: fit-content;
+    border-radius: 6px;
+    text-align: center;
+    padding: ;
+}
+
+main {
+    flex-grow: 1;
+    overflow: auto;
+}
+img {
+    
+}
+.immagini {
+    background-image: url("https://fastly.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s");
+ height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0.5em;
+    position: relative;
+ 
+}
+.immagini div {
+    background-color: gray;
+    color: white;
+   display: flex;   
+}
+
+.microfono {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+.camera {
+ display: flex;
+ flex-wrap: wrap;
+}
+   
+.muto {
+    display: inline-block;
+}
+
+footer {
+    background-color: gray; 
+    display: flex;
+    align-items:end ;
+    height: 60px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer i {
+    margin-right: 0.3em  ;
+    
+    
+}
+
+.video div {
+    margin-left: 0.5em;
+}
+
+.video i  {
+ margin-left: 0.3em ;
+}
+
+footer div {
+    display: inline-block;
+
+    
+}
+
+.pulsanti {
+    display: block;
+}
+
+.tasto-condividi :first-child {
+    color: green;
+    
+}
+
+.off-button {
+background-color: rgb(68, 11, 11);
+height: 100px;
+width: 150px;
+color: red
+}
