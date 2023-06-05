@@ -40,6 +40,8 @@ header div {
 main {
     flex-grow: 1;
     overflow: auto;
+    margin-left: 2em; ;
+    margin-bottom: 4em;
 }
 img {
     
@@ -118,5 +120,8 @@ footer div {
 background-color: rgb(68, 11, 11);
 height: 100px;
 width: 150px;
-color: red
+color: red;
+display: flex;
+justify-content: center;
+align-items: center;
 }
